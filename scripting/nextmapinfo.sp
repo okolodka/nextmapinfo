@@ -7,7 +7,7 @@ public Plugin myinfo =
 	author = "PSIH :{",
 	description = "Prints the nextmap on map end.",
 	version = "1.0.0",
-	url = "http://www.sourcemod.net/"
+	url = "https://github.com/0RaKlE19/nextmapinfo"
 };
 
 public void OnPluginStart()
