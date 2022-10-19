@@ -21,7 +21,7 @@ public void GameEndMb(Event event, const char[] name, bool dontBroadcast)
 	char nextmap[256];
 	char szBuffer[356];
 	GetConVarString(FindConVar("sm_nextmap"), nextmap, sizeof(nextmap));
-	for(int n = 0; n<=MaxClients; n++)
+	for(int n = 1; n<=MaxClients; n++)
 	{
 		if(IsClientInGame(n))
 		{
